@@ -353,7 +353,11 @@ label {
 #header #cart .cart td.price{ font-size:12px; font-weight:600; line-height:12px;}
 #header #cart .cart td.total{ font-size:12px; font-weight:600;}
 #header #cart .cart td.name a:hover{ text-decoration:underline;}
-#header #cart .cart td.name a{ text-decoration:none; font-size:11px; line-height:17px; margin-top:0px; display:inline-block; } 
+#header #cart .cart 
+
+
+
+.name a{ text-decoration:none; font-size:11px; line-height:17px; margin-top:0px; display:inline-block; } 
 #header #cart .cart td .total { font-size:11px; font-weight:bold; color:#000;}
 #header #cart .cart td .total .quantity{}
 #header #cart .cart td.name{ padding-left:10px;}
@@ -843,10 +847,10 @@ table.list {
 .checkout-product thead td
 .checkout-product thead  td{ text-align:center!important;}
 .checkout-product td.price{ font-size:14px;}
-.checkout-product td.total{ text-align:center!important; color:#fa5f51; font-weight:bold; font-size:14px;}
+.checkout-product td.total{ text-align:center!important; color:#006e62; font-weight:bold; font-size:14px;}
 .checkout-product td{border-right: 1px solid #e6e5e5;}
 .return-remove .button:hover{ color:#fff;}
-.return-remove .button{ color:#FFF; padding:1px 5px 2px;}
+.return-remove .button{ color:#00ffd8; padding:1px 5px 2px;}
 table.list td {
 	border-right: 1px solid #e6e5e5;
 	border-bottom: 1px solid #e6e5e5;
@@ -2129,12 +2133,13 @@ position:relative; margin-left:-5px;
 	line-height: 20px; width:414px;
 	background:#DEDEDE;
 }
-.btn-rew{ float:right!important; font-size:12px; color:#dfe1e4}
+.btn-rew{ float:right!important; font-size:12px; color:#006f5b}
 .btn-rew a + a{ color:#000;}
-.btn-rew a{ text-decoration:underline; font-size:12px; color:#A6A4A4; font-weight:normal;}
+.btn-rew a{ text-decoration:underline; font-size:12px; color:
+; font-weight:normal;}
 .btn-rew a:hover{ text-decoration:none;}
 .product-info .review > div > span {
-	color: #38B0E3;
+	color: #00ffe4;
 }
 .product-info .review .share {
 	overflow: hidden;
